@@ -2,6 +2,10 @@
   "name": "jiri",
   "version": "1.0.0",
   "description": "A mordern JIRA client with ECMAScript 2015",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/heycalmdown/jiri.git"
+  },
   "main": "lib/jiri.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,10 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^2.9.30",
-    "express": "^4.13.0",
-    "jira": "^0.9.2",
     "lodash": "^3.9.3",
-    "oauth": "^0.9.13",
     "superagent": "^1.2.0",
     "superagent-promise": "^1.0.0"
   },
